@@ -5,21 +5,23 @@ public class PrimeNumber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		boolean isPrime = true;
-		int number = 13;
+		int number = 12;
 		for (int i = 2; i <= number / 2; i++) {
-			
+
 			if (number % i == 0) {
-				System.out.println(number + " is not a Prime number");
+
 				isPrime = false;
 				break;
-				
+
 			}
-			
-			
+
 		}
-		if(isPrime) {
-			System.out.println(number+ " is a prime number");
+		if (isPrime) {
+			System.out.println(number + " is a prime number");
+		} else {
+			System.out.println(number + " is not a Prime number");
 		}
 	}
 
 }
+
