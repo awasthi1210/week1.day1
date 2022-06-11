@@ -3,6 +3,7 @@ package week1.day1.assignments;
 public class Factorial {
 
 	public static void main(String[] args) {
+		//commenting
 		// TODO Auto-generated method stub
 		int input=5;
 		int fact=1;
